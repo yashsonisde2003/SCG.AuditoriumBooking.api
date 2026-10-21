@@ -1,0 +1,36 @@
+﻿# Visual Studio
+.vs/
+.vscode/
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# User-specific files
+*.user
+*.suo
+*.rsuser
+
+# Logs
+*.log
+logs/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration containing secrets
+appsettings.Development.json
+
+# Test results and generated output
+[Tt]est[Rr]esult*/
+publish/
+artifacts/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini

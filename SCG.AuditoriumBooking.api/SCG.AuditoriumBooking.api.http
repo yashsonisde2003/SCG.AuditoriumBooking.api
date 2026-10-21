@@ -1,0 +1,6 @@
+@SCG.AuditoriumBooking.api_HostAddress = http://localhost:5207
+
+GET {{SCG.AuditoriumBooking.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
