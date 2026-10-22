@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/SCG.AuditoriumBooking.API/">
+    <Project Path="SCG.AuditoriumBooking.API/SCG.AuditoriumBooking.api.csproj" />
+  </Folder>
+  <Project Path="SCG.AuditoriumBooking.Application/SCG.AuditoriumBooking.Application.csproj" />
+  <Project Path="SCG.AuditoriumBooking.Domain/SCG.AuditoriumBooking.Domain.csproj" />
+  <Project Path="SCG.AuditoriumBooking.Infrastructure/SCG.AuditoriumBooking.Infrastructure.csproj" />
+</Solution>

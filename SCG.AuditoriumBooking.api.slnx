@@ -1,3 +1,11 @@
 <Solution>
-  <Project Path="SCG.AuditoriumBooking.api/SCG.AuditoriumBooking.api.csproj" />
+  <Folder Name="/SCG.AuditoriumBooking.api/" />
+  <Folder Name="/SCG.AuditoriumBooking.api/src/">
+    <Project Path="SCG.AuditoriumBooking.api/src/SCG.AuditoriumBooking.Application/SCG.AuditoriumBooking.Application.csproj" />
+    <Project Path="SCG.AuditoriumBooking.api/src/SCG.AuditoriumBooking.Domain/SCG.AuditoriumBooking.Domain.csproj" />
+    <Project Path="SCG.AuditoriumBooking.api/src/SCG.AuditoriumBooking.Infrastructure/SCG.AuditoriumBooking.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/SCG.AuditoriumBooking.api/src/SCG.AuditoriumBooking.API/">
+    <Project Path="SCG.AuditoriumBooking.api/src/SCG.AuditoriumBooking.API/SCG.AuditoriumBooking.api.csproj" />
+  </Folder>
 </Solution>

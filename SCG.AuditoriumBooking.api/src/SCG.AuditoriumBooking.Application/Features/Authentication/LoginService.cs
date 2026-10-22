@@ -50,7 +50,7 @@ public sealed class LoginService
             Name = user.Name,
             Email = user.Email,
             RoleName = user.RoleName,
-            RoleType = user.RoleType
+
         };
     }
 }

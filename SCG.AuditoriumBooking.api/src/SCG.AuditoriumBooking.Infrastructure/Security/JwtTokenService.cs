@@ -37,7 +37,7 @@ public sealed class JwtTokenService : ITokenService
             new(ClaimTypes.Name, user.Name),
             new(ClaimTypes.Email, user.Email),
             new(ClaimTypes.Role, user.RoleName),
-            new("role_type", user.RoleType),
+
             new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
         };
 

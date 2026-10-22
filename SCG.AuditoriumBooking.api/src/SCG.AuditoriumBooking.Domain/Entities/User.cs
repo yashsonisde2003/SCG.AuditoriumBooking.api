@@ -28,9 +28,7 @@ namespace SCG.AuditoriumBooking.api.Domain.Entities
         [StringLength(50)]
         public string RoleName { get; set; } = string.Empty;
 
-        [Required]
-        [StringLength(50)]
-        public string RoleType { get; set; } = string.Empty;
+
 
         [Required]
         public bool IsActive { get; set; } = true;

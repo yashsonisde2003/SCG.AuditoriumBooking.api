@@ -14,6 +14,6 @@
 
         public string RoleName { get; set; } = string.Empty;
 
-        public string RoleType { get; set; } = string.Empty;
+
     }
 }
